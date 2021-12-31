@@ -18,11 +18,11 @@
             @csrf
             <div class="mb-3">
                 <label for="title" class="form-label">Title</label>
-                <input type="text" class="form-control" id="title" name="title">
+                <input type="text" class="form-control" id="title" name="title" placeholder="Input short statement for your task">
             </div>
             <div class="mb-3">
                 <label for="description" class="form-label">Description</label>
-                <textarea type="text" class="form-control" id="description" name="description" rows="5"></textarea>
+                <textarea type="text" class="form-control" id="description" name="description" rows="5" placeholder="Add neccessary details on the task"></textarea>
             </div>
             <div class="mb-3">
                 <label for="description" class="form-label">Status</label>
